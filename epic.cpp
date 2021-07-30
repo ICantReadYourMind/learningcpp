@@ -8,5 +8,4 @@ int main()
     std::string w = "World!";
 
     std::cout << h << w;
-
 }
