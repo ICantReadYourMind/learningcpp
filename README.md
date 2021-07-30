@@ -1,2 +1,1 @@
-# learningcpp
-# learningcpp
+# Learning C++
