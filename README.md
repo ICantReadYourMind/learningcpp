@@ -1,1 +1,2 @@
 # Learning C++
+The code in this will change very frequently to do different things, say, if you saw a Hello World program, maybe next day you'll see some odd number calculator! If you want to go and see the Hello World program again, just use GitHub's commit history thing and find the commit of Hello World.
