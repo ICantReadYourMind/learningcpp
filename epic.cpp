@@ -1,11 +1,17 @@
 //trying to learn c++
 #include <iostream>
-#include <string>
 
 int main()
-{ 
-    std::string h = "Hello ";
-    std::string w = "World!";
+{
+    int x;
 
-    std::cout << h << w;
+    std::cout << "Insert number: ";
+    std::cin >> x;
+    
+    if (x % 2 > 0) {
+        std::cout << "The number is odd.";
+    }
+    else if (x % 2 == 0) {
+        std::cout << "The number is even.";
+    }
 }
