@@ -1,3 +1,5 @@
+//trying to learn c++
+
 #include <iostream>
 
 using namespace std;
