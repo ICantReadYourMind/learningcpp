@@ -1,10 +1,12 @@
 //trying to learn c++
-
 #include <iostream>
-
-using namespace std;
+#include <string>
 
 int main()
 { 
-    cout << "Hello World!";
+    std::string h = "Hello ";
+    std::string w = "World!";
+
+    std::cout << h << w;
+
 }
