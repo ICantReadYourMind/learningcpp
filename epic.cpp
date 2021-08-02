@@ -3,15 +3,21 @@
 
 int main()
 {
-    int x;
+    unsigned long long int x;
 
-    std::cout << "Insert number: ";
+    for( ; ; ) {
+    std::cout << "Insert number (insert 0, text or Control+C to exit): ";
     std::cin >> x;
-    
-    if (x % 2 > 0) {
-        std::cout << "The number is odd.";
+
+    if (x == 0) {
+        std::cout << "You inserted a number or text, the application will now close.";
+        return 0;
+    }
+    else if (x % 2 > 0) {
+        std::cout << "The number is odd.\n";
     }
     else if (x % 2 == 0) {
-        std::cout << "The number is even.";
+        std::cout << "The number is even.\n";
     }
+}
 }
